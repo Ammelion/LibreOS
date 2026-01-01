@@ -1,15 +1,6 @@
-# Ignore live-build temporary directories
 .build/
 chroot/
 binary/
 local/
-stage*
-
-# Ignore generated images
 *.iso
-*.contents
-*.zsync
-*.packages
-
-# Ignore logs
 *.log
