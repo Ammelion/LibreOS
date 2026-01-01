@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+lb config noauto \
+    --mode debian \
+    --debian-installer live \
+    --debian-installer-distribution bookworm \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --linux-flavours amd64 \
+    --updates true \
+    "${@}"
