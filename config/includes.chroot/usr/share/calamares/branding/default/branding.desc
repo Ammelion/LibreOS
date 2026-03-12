@@ -1,0 +1,30 @@
+componentName: default
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+strings:
+  productName: "VImukti"
+  shortProductName: "MyLinux"
+  version: "1.0"
+  shortVersion: "1.0"
+  versionedName: "MyLinux 1.0"
+  shortVersionedName: "MyLinux 1.0"
+  bootloaderEntryName: "MyLinux"
+  productUrl: "https://www.debian.org"
+  supportUrl: "https://www.debian.org/"
+  knownIssuesUrl: "https://www.debian.org/"
+  releaseNotesUrl: "https://www.debian.org/"
+
+images:
+  #productLogo: "logo.png"
+  #productIcon: "logo.png"
+  #productWelcome: "languages.png"
+
+slideshow: "show.qml"
+
+style:
+  sidebarBackground: "#292F34"
+  sidebarText: "#FFFFFF"
+  sidebarTextSelect: "#292F34"
+  sidebarTextHighlight: "#4EC9D4"

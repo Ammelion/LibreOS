@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+# Create user if doesn't exist
+if ! id -u user > /dev/null 2>&1; then
+    useradd -m -s /bin/bash user
+fi
+
+# Now set password
+echo "user:live" | chpasswd
+echo "root:live" | chpasswd
+
+# Auto login for TTY
+mkdir -p /etc/systemd/system/getty@tty1.service.d/
+cat > /etc/systemd/system/getty@tty1.service.d/autologin.conf << EOF
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --autologin user --noclear %I 38400 linux
+EOF

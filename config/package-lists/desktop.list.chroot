@@ -1,6 +1,4 @@
-task-gnome-desktop
-calamares
-waydroid
-curl
-ca-certificates
-kmod
+xfce4
+xfce4-terminal
+xorg
+--no-install-recommends

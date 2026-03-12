@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+# Allow live user to run calamares without password
+echo "user ALL=(ALL) NOPASSWD: /usr/bin/calamares" >> /etc/sudoers.d/calamares
+chmod 440 /etc/sudoers.d/calamares
