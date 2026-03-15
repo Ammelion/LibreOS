@@ -555,8 +555,8 @@ libyaml-cpp0.7:amd64	0.7.0+dfsg-8+b1
 libz3-4:amd64	4.8.12-3.1
 libzstd1:amd64	1.5.4+dfsg2-5
 linux-base	4.9
-linux-image-6.1.0-43-amd64	6.1.162-1
-linux-image-amd64	6.1.162-1
+linux-image-6.1.0-44-amd64	6.1.164-1
+linux-image-amd64	6.1.164-1
 live-boot	1:20230131+deb12u1
 live-boot-initramfs-tools	1:20230131+deb12u1
 live-config	11.0.3+nmu1

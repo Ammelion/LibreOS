@@ -25,8 +25,8 @@ f binary/efi.img
 f binary/sha256sum.txt
 d binary/live
 f binary/live/filesystem.packages
-f binary/live/initrd.img-6.1.0-43-amd64
 f binary/live/filesystem.squashfs
+f binary/live/initrd.img-6.1.0-44-amd64
 d binary/.disk
 f binary/.disk/info
 d binary/.disk

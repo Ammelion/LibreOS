@@ -8,16 +8,17 @@ strings:
     versionedName: LibreOS 1.0
     shortVersionedName: LibreOS 1.0
     bootloaderEntryName: LibreOS
-    productUrl: ""
-    supportUrl: ""
-    releaseNotesUrl: ""
+    productUrl: "https://music.youtube.com/watch?v=LcF2KUJVdLE&list=RDAMVMsMD7TPpRGVw "
+    supportUrl: "https://music.youtube.com/watch?v=LcF2KUJVdLE&list=RDAMVMsMD7TPpRGVw "
+    releaseNotesUrl: "https://music.youtube.com/watch?v=LcF2KUJVdLE&list=RDAMVMsMD7TPpRGVw "
 
 images:
-    productLogo: ""
-    productIcon: ""
-    productWelcome: ""
+    productLogo: "logo.png"
+    productIcon: "logo.png"
+    productWelcome: "logo.png"
 
-slideshow: ""
+slideshow: "show.qml"
+slideshowAPI: 2
 
 style:
     sidebarBackground: "#1a1a2e"
